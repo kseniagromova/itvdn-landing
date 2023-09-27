@@ -1,0 +1,33 @@
+{
+  "name": "itvdn-landing",
+  "version": "1.0.0",
+  "description": "This is landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kseniagromova/itvdn-landing.git"
+  },
+  "author": "Ksenia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kseniagromova/itvdn-landing/issues"
+  },
+  "homepage": "https://github.com/kseniagromova/itvdn-landing#readme",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp.spritesmith": "^6.13.0",
+    "rimraf": "^5.0.5"
+  },
+  "dependencies": {
+    "@sveltejs/adapter-netlify": "^1.0.0-next.88",
+    "@sveltejs/kit": "^1.0.0-next.589",
+    "sass": "^1.68.0"
+  }
+}
